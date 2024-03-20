@@ -2,7 +2,7 @@
 
 Repositório do projeto de testes automatizados do sistema Startbugs, construído no curso QAx Testes de Software: https://qax.com.br/pt/cursos/bdd-discover
 
-## 💻 Tecnologias
+## 💻 Stacks
 - Ruby
 - Capybara
 - RSpec
