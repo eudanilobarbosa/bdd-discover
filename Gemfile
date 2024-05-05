@@ -2,4 +2,6 @@
 
 source "https://rubygems.org"
 
-gem 'cucumber', '~> 9.1'
+gem 'capybara'
+gem 'cucumber'
+gem 'selenium-webdriver'
