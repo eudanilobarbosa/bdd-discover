@@ -11,7 +11,7 @@ Funcionalidade: Uso de Cupons no Checkout
             E o item que está no meu carrinho é o Café com Leite no valor de R$ 19,99
             E que a taxa de entrega é de R$ 10,00
             E o valor total é de R$ 29,99
-            E tenho um cupom com 20% de desconto
+            E tenho um cupom com 20% de desconto "MEUCAFE"
         Quando aplico esse cupom de desconto
         Então o desconto de 20% deve ser aplicado apenas no valor do Café com Leite
             E o valor final da compra deve ser atualizado para R$ 25,99 
@@ -22,7 +22,7 @@ Funcionalidade: Uso de Cupons no Checkout
             E o item que está no meu carrinho é o Café com Leite no valor de R$ 19,99
             E que a taxa de entrega é de R$ 10,00
             E o valor total é de R$ 29,99
-            E tenho um cupom que está expirado
+            E tenho um cupom que está expirado "PROMO20"
         Quando aplico esse cupom de desconto
         Então devo ver a seguinte notificação "Cupom expirado!"
             E o valor final deve permanecer o mesmo
@@ -33,7 +33,7 @@ Funcionalidade: Uso de Cupons no Checkout
             E o item que está no meu carrinho é o Café com Leite no valor de R$ 19,99
             E que a taxa de entrega é de R$ 10,00
             E o valor total é de R$ 29,99
-            E tenho um cupom com o código inválido
+            E tenho um cupom com o código inválido "PROMO100"
         Quando aplico esse cupom de desconto
         Então devo ver a seguinte notificação "Cupom inválido!"
             E o valor final deve permanecer o mesmo
