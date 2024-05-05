@@ -19,12 +19,9 @@ Quando('por fim finalizo a compra') do
 end
 
 Então('sou redirecionado para a página de confirmação de Pedidos') do
-pending # Write code here that turns the phrase above into concrete actions
+    @order.assert_order
 end
 
-Então('deve ser informado um prazo de entrega entre {int} a {int} minutos') do |int, int2|
-# Então('deve ser informado um prazo de entrega entre {int} a {float} minutos') do |int, float|
-# Então('deve ser informado um prazo de entrega entre {float} a {int} minutos') do |float, int|
-# Então('deve ser informado um prazo de entrega entre {float} a {float} minutos') do |float, float2|
-pending # Write code here that turns the phrase above into concrete actions
+Então('deve ser informado o seguinte prazo de entrega: {string}') do |delivery_time|
+    @order.assert_delivery_time(delivery_time)
 end
