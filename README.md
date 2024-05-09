@@ -40,7 +40,7 @@ bundle exec cucumber
 ```
 
 ## Funcionalidades Testadas
-[![Cypress.io](https://img.shields.io/badge/tested%20with-Ruby-CC0000.svg)](https://www.ruby-lang.org/)
+[![RSpec](https://img.shields.io/badge/tested%20with-RSpec-FE405F.svg)](https://rspec.info/)
 
 #### Catálogo de cafés
 
